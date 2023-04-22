@@ -11,10 +11,13 @@ source env/bin/activate  # On Windows use `env\Scripts\activate`
 For run this project on a local machine:
 
 ```sh
-pip install -r requriments.txt
+pip install -r requirements.txt
+python manage.py runserver
 ```
 
 - Endpoint:
+
+http://127.0.0.1:8000/rest/v1/calendar/init/
 
 ```
 /rest/v1/calendar/init/ -> GoogleCalendarInitView()
